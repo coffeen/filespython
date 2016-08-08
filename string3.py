@@ -1,0 +1,5 @@
+print "the backslash tells python to treat the letter that follows in a special way"
+print "so if I want a newline, I can use backslash n \nto make it happen"
+print "backslash t \t will insert a tab"
+print "\n\n\nnewlines and \ttabs \n\tcan \n\n\t\tbe used\n\n\n\t\t\tconsecutively"
+print "\n\n\nnew lines can help you read, especially in terminal \n\n\n"

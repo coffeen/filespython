@@ -1,0 +1,14 @@
+#python install:
+  #go to-http://python.org/download (download and install python2.x)
+
+#Windows-if python is not recognized at the command line, enter:
+[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")
+
+#Install pip(package installer)
+sudo easy_install pip
+#Update pip
+pip install --upgrade pip
+
+#install packages:
+pip install selenium
+
